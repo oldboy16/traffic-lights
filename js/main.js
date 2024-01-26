@@ -23,8 +23,8 @@ function fnRed(){
     elBoxes[0].classList.add('qizil')
     elBoxes[1].classList.remove('sariq')
     elBoxes[2].classList.remove('yashil')
-    elDivs[0].classList.add('qizil')
-    elDivs[1].classList.remove('yashil')
+    elDivs[0].classList.remove('qizil')
+    elDivs[1].classList.add('yashil')
 }
 function fnYellow(){
     elBoxes[0].classList.remove('qizil')
@@ -35,7 +35,7 @@ function fnGreen(){
     elBoxes[0].classList.remove('qizil')
     elBoxes[1].classList.remove('sariq')
     elBoxes[2].classList.add('yashil')
-    elDivs[0].classList.remove('qizil')
-    elDivs[1].classList.add('yashil')
+    elDivs[0].classList.add('qizil')
+    elDivs[1].classList.remove('yashil')
 }
 
