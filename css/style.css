@@ -1,0 +1,71 @@
+.wrapper{
+    width: 200px;
+    height: 600px;
+    
+    background-color: rgb(20, 19, 19);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.box:nth-child(1){
+    background-color: rgba(255, 0, 0, 0.646);
+}
+.box:nth-child(2){
+    background-color: rgba(255, 255, 0, 0.593);
+}
+.box:nth-child(3){
+    background-color: rgba(10, 162, 10, 0.665);
+}
+
+.qizil{
+    background-color: rgb(255, 25, 0) !important;
+}
+.sariq{
+    background-color: rgb(255, 255, 0) !important;
+}
+.yashil{
+    background-color: rgb(4, 255, 4) !important;
+}
+
+.wrapper__hero{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.div{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.hero__wrap{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div:nth-child(1){
+    background-color: rgba(255, 0, 0, 0.646);
+}
+.div:nth-child(2){
+    background-color: rgba(10, 162, 10, 0.665);
+}
+.person__img{
+    font-size: 160px;
+    text-align: center;
+    padding-left: 10px;
+    opacity: 0.9;
+}
